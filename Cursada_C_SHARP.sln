@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_3_Ejercicio_1", "Clas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_3_Ejercicio_2", "Clase_3_Ejercicio_2\Clase_3_Ejercicio_2.csproj", "{E98AFFB7-5B01-475C-93B4-63FBDAB3FCFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_4", "Clase_4\Clase_4.csproj", "{505D2AFE-4F5D-43B9-AF8F-68F1B81F9EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase_4", "Clase_4\Clase_4.csproj", "{505D2AFE-4F5D-43B9-AF8F-68F1B81F9EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClasesNegocios", "ClasesNegocios\ClasesNegocios.csproj", "{A417B984-461A-4532-ACFA-890A647AD5BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClasesNegocios", "ClasesNegocios\ClasesNegocios.csproj", "{A417B984-461A-4532-ACFA-890A647AD5BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase3", "Clase3", "{5EB889D4-92A0-48FE-BB70-4EB110E2542A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +56,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC0B4F15-BD1A-4A69-8DE6-4FAA4E023E61} = {5EB889D4-92A0-48FE-BB70-4EB110E2542A}
+		{BFFC8F1E-CDCA-4313-B964-36FC9F7BE0BA} = {5EB889D4-92A0-48FE-BB70-4EB110E2542A}
+		{E98AFFB7-5B01-475C-93B4-63FBDAB3FCFF} = {5EB889D4-92A0-48FE-BB70-4EB110E2542A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A4621B5-211A-4750-AEBD-EB4E7C215654}
