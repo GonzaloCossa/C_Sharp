@@ -16,5 +16,15 @@ namespace ClasesNegocios
             this.nombre = nombre;
             this.size = size;
         }
+
+        public static explicit operator string(App app) 
+        {
+            return $"{app.nombre} ({app.size} GB)";
+        }
+        
+        public static implicit operator double(App app) 
+        {
+            return app.size;
+        }
     }
 }

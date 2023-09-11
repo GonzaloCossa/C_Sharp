@@ -46,6 +46,24 @@ namespace Clase_4
             }
 
             Console.WriteLine(celular1.ToString());
+
+            Console.WriteLine("*********************EXPLICIT e IMPLICIT*********************************");
+            //PRUEBA DE OPERADORES EXPLICITOS E IMPLICITOS DE LA CLASE APP
+
+            App unaApp = new App("Pokemon Go", 45f);
+
+            string appString;
+
+            appString = (string)unaApp;
+
+            Console.WriteLine(appString);
+
+            double capacidad;
+
+            capacidad = unaApp;
+
+            Console.WriteLine($"La capacidad del celular es: {capacidad}");
+
         }
     }
 }
