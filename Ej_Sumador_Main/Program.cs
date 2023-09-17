@@ -1,4 +1,6 @@
-﻿namespace Ejercicio_I01_Sumador
+﻿using Ejercicio_I01_Sumador;
+
+namespace Ej_Sumador_Main
 {
     internal class Program
     {
@@ -10,9 +12,8 @@
             Sumador s1 = new Sumador();
             Sumador s2 = new Sumador();
 
-            Console.WriteLine(s1.Sumar(21,22));
+            Console.WriteLine(s1.Sumar(21, 22));
             Console.WriteLine(s2.Sumar("Hello, ", "World"));
-
 
             a = (int)s1;
             b = (int)s2;
@@ -20,8 +21,8 @@
             Console.WriteLine(a);
             Console.WriteLine(b);
 
-            Console.WriteLine(s1+s2);
-            Console.WriteLine(s1|s2);
+            Console.WriteLine(s1 + s2);
+            Console.WriteLine(s1 | s2);
         }
     }
 }

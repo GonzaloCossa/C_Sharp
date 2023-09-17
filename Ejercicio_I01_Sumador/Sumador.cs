@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_I01_Sumador
 {
-    internal class Sumador
+    public class Sumador
     {
         private int cantidadSumas;
 
@@ -14,6 +14,7 @@ namespace Ejercicio_I01_Sumador
         {
             cantidadSumas = 0;
         }
+
         public Sumador(int cantidadSumas): this()
         {
             this.cantidadSumas = cantidadSumas;
@@ -31,13 +32,7 @@ namespace Ejercicio_I01_Sumador
 
         public static bool operator |(Sumador s1, Sumador s2)
         {
-            bool retorno = false;
-
-            if(s1.cantidadSumas == s2.cantidadSumas)
-            {
-                retorno = true;
-            }
-            return retorno;
+            return s1.cantidadSumas == s2.cantidadSumas ? true : false;
         }
 
         public long Sumar(long a, long b)
